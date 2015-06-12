@@ -9,4 +9,4 @@ Debian 8 with latest stable Jenkins
 
 [UID] is the uid that jenkins should run with (e.g. 65534 for 'nobody').
 [path] is the path, where jenkins data should be stored.
-Note that [UID] must own wall files in [path]!
+Note that [UID] must own all files in [path]!
