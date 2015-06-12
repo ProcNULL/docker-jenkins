@@ -2,7 +2,7 @@ FROM debian:jessie
 MAINTAINER Chronos <chronos@procnull.de>
 
 ADD /scripts/ /opt/scripts/
-RUN chmod 777 /opt/scripts/* && /opt/scripts/install.sh
+RUN chmod 777 /opt/scripts/*; sleep 1; /opt/scripts/install.sh
 
 VOLUME /var/lib/jenkins
 WORKDIR /var/lib/jenkins
