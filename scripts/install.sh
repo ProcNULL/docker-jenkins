@@ -2,7 +2,7 @@
 
 apt-get update
 apt-get dist-upgrade -y
-apt-get install -y openjdk-7-jre curl git
+apt-get install -y openjdk-7-jre curl git sudo
 apt-get clean -y
 
 curl -sL http://mirrors.jenkins-ci.org/war-stable/latest/jenkins.war >/opt/jenkins.war
