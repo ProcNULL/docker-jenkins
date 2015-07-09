@@ -6,6 +6,7 @@ RUN chmod 777 /opt/scripts/*; sleep 1; /opt/scripts/install.sh
 
 VOLUME /var/lib/jenkins
 WORKDIR /var/lib/jenkins
+ENV UID=65534
 EXPOSE 8080
 
 ENTRYPOINT ["/opt/scripts/start.sh"]
