@@ -1,7 +1,6 @@
 #!/bin/sh
 
 apt-get update
-apt-get dist-upgrade -y
 apt-get install -y openjdk-7-jre openjdk-7-jdk curl git sudo
 apt-get clean -y
 
