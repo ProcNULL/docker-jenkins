@@ -5,7 +5,6 @@ ADD /scripts/ /opt/scripts/
 RUN chmod 777 /opt/scripts/*; sleep 1; /opt/scripts/install.sh
 
 VOLUME /jenkins
-ENV JENKINS_HOME=/jenkins
 ENV UID=65534
 EXPOSE 8080
 
